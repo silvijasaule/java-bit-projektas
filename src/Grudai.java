@@ -4,7 +4,7 @@ public class Grudai {
         System.out.println(k);
         for (var i = 1; i < 64; i++) {
             k = k * 2;
-            System.out.println(k);
+            System.out.println(i + " " + k);
         }
     }
 }
