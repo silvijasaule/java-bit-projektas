@@ -1,10 +1,10 @@
 public class Grudai {
     public static void main(String[] args) {
-        int k = 1;
-        System.out.println(k);
-        for (var i = 1; i < 64; i++) {
+        long k = 1;
+        for (int i = 1; i <= 64; i++) {
+            System.out.println(i + " langelyje yra " + k + " grūdų");
             k = k * 2;
-            System.out.println(i + " " + k);
+
         }
     }
 }
