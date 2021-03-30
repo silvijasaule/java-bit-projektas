@@ -1,3 +1,5 @@
+package lt.bit.java;
+
 public class Grudai {
     public static void main(String[] args) {
         long k = 1;
