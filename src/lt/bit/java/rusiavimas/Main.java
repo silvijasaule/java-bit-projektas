@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int []masyvas = {1,5,6,8,3};
+        int []masyvas = {1,5,6,21,63,4};
         System.out.println(Arrays.toString(masyvas));
 
         int tuscias;
