@@ -9,7 +9,7 @@ public class Main {
         System.out.println(Arrays.toString(masyvas));
 
         int tuscias;
-        for (int i = 0; i < masyvas.length; i++){
+        for (int i = 0; i < masyvas.length-1; i++){
             for (int j = i+ 1; j < masyvas.length; j++) {
                 if (masyvas[i] < masyvas[j]){
                   tuscias = masyvas[i];
