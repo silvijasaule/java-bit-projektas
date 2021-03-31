@@ -15,10 +15,9 @@ public class Main {
                   tuscias = masyvas[i];
                   masyvas[i] = masyvas[j];
                   masyvas[j] = tuscias;
-                  System.out.println(Arrays.toString(masyvas));
                 }
             }
-
+            System.out.println(Arrays.toString(masyvas));
         }
 
     }
