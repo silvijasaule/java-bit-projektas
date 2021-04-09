@@ -19,7 +19,7 @@ public class Mokinys extends Zmogus {
 
     @Override
     public String toString() {
-        return klase + " klasė " + vardas + " " + pavarde + " " + (vidurkis(trimestras));
+        return klase + " klasė " + getVardas() + " " + getPavarde() + " " + (vidurkis(trimestras));
     }
 
     // vidurkio skaičiavimo metodas (funkcija)

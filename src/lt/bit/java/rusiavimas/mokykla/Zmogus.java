@@ -1,8 +1,8 @@
 package lt.bit.java.rusiavimas.mokykla;
 
 public class Zmogus {
-    String vardas;
-    String pavarde;
+    private String vardas;
+    private String pavarde;
 
     public Zmogus(String vardas, String pavarde) {
         this.vardas = vardas;
@@ -15,6 +15,13 @@ public class Zmogus {
         return  vardas + " " + pavarde;
     }
 
+    public String getVardas() {
+        return vardas;
+    }
+
+    public String getPavarde() {
+        return pavarde;
+    }
 }
 
 
